@@ -18,16 +18,16 @@ namespace Balbarak.WeasyPrint
         public event WeasyPrintEventHandler OnDataOutput;
         public event WeasyPrintEventHandler OnDataError;
 
-        public WeasyPrintClient()
+        public WeasyPrintClient(string path = null)
         {
-            _fileManager = new FilesManager();
+            _fileManager = new FilesManager(path);
 
             SetEnviromentVariables();
 
             _invoker = new ProcessInvoker(_environmentVariables);
         }
 
-        public WeasyPrintClient(ITraceWriter traceWriter) : this()
+        public WeasyPrintClient(ITraceWriter traceWriter, string path=null) : this(path)
         {
             _invoker = new ProcessInvoker(_environmentVariables, traceWriter);
 

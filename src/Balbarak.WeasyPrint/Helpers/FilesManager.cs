@@ -17,9 +17,9 @@ namespace Balbarak.WeasyPrint
     {
         public string FolderPath { get; }
 
-        public FilesManager()
+        public FilesManager(string path = null)
         {
-            FolderPath = GetFolderPath();
+            FolderPath = GetFolderPath(path);
         }
 
         public Task InitFilesAsync()
@@ -107,15 +107,15 @@ namespace Balbarak.WeasyPrint
             });
         }
 
-        private string GetFolderPath()
+        private string GetFolderPath(string path)
         {
-            var appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-
-            var folderName = "netwrapper-weasyprint";
-
-            var fullPath = Path.Combine(appDataPath, folderName);
-
-            return fullPath;
+            if(path == null) { 
+                var appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+                var folderName = "netwrapper-weasyprint";
+                var fullPath = Path.Combine(appDataPath, folderName);
+                return fullPath;
+            }
+            return path;
         }
 
         private void DeleteFiles()
