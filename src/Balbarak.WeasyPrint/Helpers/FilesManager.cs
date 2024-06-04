@@ -109,13 +109,14 @@ namespace Balbarak.WeasyPrint
 
         private string GetFolderPath(string path)
         {
-            if(path == null) { 
+            var folderName = "netwrapper-weasyprint";
+            if (path == null) { 
                 var appDataPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-                var folderName = "netwrapper-weasyprint";
                 var fullPath = Path.Combine(appDataPath, folderName);
                 return fullPath;
             }
-            return path;
+            return Path.Combine(path, folderName);
+            
         }
 
         private void DeleteFiles()

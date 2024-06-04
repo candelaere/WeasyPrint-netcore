@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Balbarak.WeasyPrint\Balbarak.WeasyPrint.csproj" />
+    <ProjectReference Include="..\Balbarak.WeasyPrint\Gtb.WeasyPrint.csproj" />
   </ItemGroup>
 
 </Project>

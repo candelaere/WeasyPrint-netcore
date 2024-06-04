@@ -1,22 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "info", "info", "{6414DF30-02DB-4C33-A86A-D0749EE05D04}"
 	ProjectSection(SolutionItems) = preProject
 		info.txt = info.txt
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balbarak.WeasyPrint", "Balbarak.WeasyPrint\Balbarak.WeasyPrint.csproj", "{994C89AF-1335-4409-8BAF-F9A5B9865F88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gtb.WeasyPrint", "Balbarak.WeasyPrint\Gtb.WeasyPrint.csproj", "{994C89AF-1335-4409-8BAF-F9A5B9865F88}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{3AC1E137-F4E7-4BBB-9504-F286EE89803B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Balbarak.WeasyPrint.Test", "Balbarak.WeasyPrint.Test\Balbarak.WeasyPrint.Test.csproj", "{0E24FA4D-C38B-4356-A682-078241FCC799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gtb.WeasyPrint.Test", "Balbarak.WeasyPrint.Test\Gtb.WeasyPrint.Test.csproj", "{0E24FA4D-C38B-4356-A682-078241FCC799}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{53094BBC-53EA-46FB-BD38-0E1C66E7D958}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeasyPrintWrapper", "WeasyPrintWrapper\WeasyPrintWrapper.csproj", "{F99DA75B-070C-408E-A946-666B478B5AB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeasyPrintWrapper", "WeasyPrintWrapper\WeasyPrintWrapper.csproj", "{F99DA75B-070C-408E-A946-666B478B5AB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
