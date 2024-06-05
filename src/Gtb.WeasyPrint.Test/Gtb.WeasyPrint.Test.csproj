@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Balbarak.WeasyPrint\Balbarak.WeasyPrint.csproj" />
+    <ProjectReference Include="..\Gtb.WeasyPrint\Gtb.WeasyPrint.csproj" />
   </ItemGroup>
 
   <ItemGroup>

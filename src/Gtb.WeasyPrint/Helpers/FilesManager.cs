@@ -1,4 +1,4 @@
-﻿using Balbarak.WeasyPrint.Resources;
+﻿using Gtb.WeasyPrint.Resources;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -8,9 +8,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-[assembly: InternalsVisibleTo("Balbarak.WeasyPrint.Test")]
+[assembly: InternalsVisibleTo("Gtb.WeasyPrint.Test")]
 
-namespace Balbarak.WeasyPrint
+namespace Gtb.WeasyPrint
 {
 
     public class FilesManager

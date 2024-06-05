@@ -1,10 +1,10 @@
-﻿using Balbarak.WeasyPrint.Test.Helpers;
+﻿using Gtb.WeasyPrint.Test.Helpers;
 using System;
 using System.IO;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Balbarak.WeasyPrint.Test
+namespace Gtb.WeasyPrint.Test
 {
     public class WeasyPrintClientTest
     {

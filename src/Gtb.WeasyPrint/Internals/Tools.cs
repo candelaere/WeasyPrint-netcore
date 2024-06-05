@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Balbarak.WeasyPrint.Internals
+namespace Gtb.WeasyPrint.Internals
 {
     [StructLayout(LayoutKind.Sequential)]
     internal struct PROCESS_BASIC_INFORMATION

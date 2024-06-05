@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Balbarak.WeasyPrint.Resources {
+namespace Gtb.WeasyPrint.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Balbarak.WeasyPrint.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Balbarak.WeasyPrint.Resources.FileResx", typeof(FileResx).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Gtb.WeasyPrint.Resources.FileResx", typeof(FileResx).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

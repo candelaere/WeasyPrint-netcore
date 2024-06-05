@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Balbarak.WeasyPrint
+namespace Gtb.WeasyPrint
 {
     public interface IWeasyPrintClient : IDisposable
     {

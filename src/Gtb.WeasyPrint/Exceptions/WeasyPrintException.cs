@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Balbarak.WeasyPrint
+namespace Gtb.WeasyPrint
 {
     [Serializable]
     public class WeasyPrintException : Exception

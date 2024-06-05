@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Balbarak.WeasyPrint.Test
+namespace Gtb.WeasyPrint.Test
 {
     public class FilesManagerTest
     {

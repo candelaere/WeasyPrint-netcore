@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Threading.Tasks;
-using Balbarak.WeasyPrint;
+using Gtb.WeasyPrint;
 namespace WeasyPrintWrapper
 {
     class Program

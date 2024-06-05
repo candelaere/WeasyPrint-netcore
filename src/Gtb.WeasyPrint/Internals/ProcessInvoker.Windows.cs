@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Balbarak.WeasyPrint.Internals
+namespace Gtb.WeasyPrint.Internals
 {
     internal partial class ProcessInvoker
     {

@@ -1,11 +1,11 @@
-﻿using Balbarak.WeasyPrint.Internals;
+﻿using Gtb.WeasyPrint.Internals;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Balbarak.WeasyPrint
+namespace Gtb.WeasyPrint
 {
     public class WeasyPrintClient : IWeasyPrintClient
     {

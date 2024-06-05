@@ -260,3 +260,4 @@ paket-files/
 __pycache__/
 *.pyc
 /src/Balbarak.WeasyPrint/Properties/PublishProfiles
+/src/Gtb.WeasyPrint/Properties/PublishProfiles

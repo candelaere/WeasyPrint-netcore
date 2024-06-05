@@ -2,16 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>Balbarak.WeasyPrint</RootNamespace>
-    <AssemblyName>Balbarak.WeasyPrint</AssemblyName>
+    <RootNamespace>Gtb.WeasyPrint</RootNamespace>
+    <AssemblyName>Gtb.WeasyPrint</AssemblyName>
     <Version>2.0.3</Version>
-    <Description>WeasyPrint Wrapper for .net on Windows
-This is a fork of balbarak's version! It lets you use a different path</Description>
+    <Description>
+		WeasyPrint Wrapper for .net on Windows
+		This is a fork of balbarak's version! It lets you use a different path
+	</Description>
     <Copyright>balbarak 2018</Copyright>
     <RepositoryUrl>https://github.com/candelaere/WeasyPrint-netcore</RepositoryUrl>
     <RepositoryType>github</RepositoryType>
     <PackageReleaseNotes>- fork to allow setting path in client constructor, defaults to previous behaviour</PackageReleaseNotes>
-    <Authors>balbarak &amp; candelaere</Authors>
+    <Authors>balbarak, candelaere</Authors>
     <Company>CreaDev</Company>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
