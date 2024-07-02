@@ -3,7 +3,7 @@
 WeasyPrint Wrapper for .Net on Windows to generate pdf from html. It uses [WeasyPrint](https://github.com/Kozea/WeasyPrint) to generate pdf from html without any extra installation and setup on Windows.
 
 `Gtb.WeasyPrint` simplifies the using of WeasyPrint on Windows, it is a minor change from `Balbarak.WeasyPrint` 
-
+It was forked to use in a web project which is executed under an app pool with no user profile, so I don't want to save files to appsettings.
 
 # Getting started
 
